@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*HEADER*/
+/*nav*/
+.navbar {
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul li a {
+    color: white;
+    padding: 2rem 2em 2em 2em;
+    font-size: 40px;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+/*SECTION*/
+.portfolio {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 100px;
+    background-color: gray;
+}
+
+.section1 {
+    text-align: center;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    background-color: #a3a3a3;
+    min-height: 80vh;
+}
+
+h1,
+p {
+    font-weight: 600;
+
+}
+
+
+#project,
+#project2 {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+img {
+    width: 50%;
+}
+
+.some {
+    text-align: center;
+   
+    padding-bottom: 60px;
+
+   
+}
+
+.project-title{
+    padding-bottom: 20px;
+}
+
+.section4 {
+    margin-top: 5rem;
+    background-color: #a3a3a3;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+/*footer*/
+footer {
+    color: white;
+    padding: 2rem;
+    
+}
+
+.contact-details img{
+  width: 50px;   
+}
+
+.contact-details{
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+
+
+
+My portfolio should have at least one media query.

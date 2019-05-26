@@ -1,0 +1,125 @@
+* {
+    text-align: center;
+    background-color: #e6ffb3;
+}
+
+#header-img,
+#header-img2 {
+    height: 30px;
+}
+
+#h1_1 {
+    font-size: 3em;
+    display: inline;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.logo {
+    display: inline;
+}
+
+#nav-bar {
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+header nav {
+    font-weight: 600;
+}
+
+header nav li {
+    list-style-type: none;
+    padding: 2em 2em 2em 2em;
+    float: left;
+}
+
+form {
+    padding: 1%;
+}
+
+
+#submit {
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: green;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.icon {
+    font-size: 4em;
+    color: green;
+}
+
+
+
+
+
+.video {
+    padding: 4%;
+}
+
+.level {
+    font-size: 1.5em;
+}
+
+ol li {
+    text-align: left;
+}
+
+
+
+a {
+    color: green !important;
+}
+
+span {
+    font-size: 0.8em;
+}
+
+.nav2 {
+
+    margin-top: 2%;
+}
+
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box_1 {
+    height: 300px;
+    flex: 1 1 200px;
+
+}
+
+.box_2 {
+    height: 300px;
+    flex: 1 1 200px;
+}
+
+.box_3 {
+    height: 300px;
+    flex: 1 1 200px;
+}
+
+
+.nav2 li {
+    list-style-type: none;
+    padding: 2em 2em 2em 2em;
+    float: left;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    nav {}
+
+
+
+
+}
